@@ -48,6 +48,6 @@ frontend  serrah.tech-https-frontend
 
 backend serrah.tech-backend
         balance roundrobin
-        server 54159-web-01 54.236.27.203 check
-        server 54159-web-02 35.153.17.253 check
+        server 54159-web-01 18.235.249.187 check
+        server 54159-web-02 54.144.239.178 check
 # end of parameters

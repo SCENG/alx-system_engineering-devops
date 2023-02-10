@@ -34,7 +34,7 @@ defaults
         errorfile 504 /etc/haproxy/errors/504.http
 
 #--graceeffiong.tech-params-begin--
-backend graceeffiong.tech-backend
+backend scengwrites.tech-backend
         balance roundrobin
         server 58968-web-01 18.235.249.187:80 check
         server 58968-web-02 54.144.239.178:80 check
